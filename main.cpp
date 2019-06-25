@@ -29,7 +29,7 @@ void init() {
 	name = rand() % 7;
 	country = rand() % 4;
 	gendere = rand() % 2;
-	died = (rand() % 100)+2;
+	died = (rand() % 99)+2;
 }
 
 string getGendere() {
