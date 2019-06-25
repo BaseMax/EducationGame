@@ -39,19 +39,19 @@ string getGendere() {
 string getName() {
 	switch (country) {
 		case 0:
-			return "Erfan";
+			return "Emma";
 		case 1:
-			return "Ali";
+			return "Olivia";
 		case 2:
-			return "Reza";
+			return "Ava";
 		case 3:
-			return "Hamid";
+			return "Isabella";
 		case 4:
-			return "Heydar";
+			return "Sophia";
 		case 5:
-			return "Saeid";
+			return "Charlotte";
 		case 6:
-			return "Mohsen";
+			return "Amelia";
 	}
 	return "";
 }
@@ -59,13 +59,13 @@ string getName() {
 string getCountry() {
 	switch (country) {
 		case 0:
-			return "Iran";
-		case 1:
 			return "USA";
-		case 2:
+		case 1:
 			return "Canada";
-		case 3:
+		case 2:
 			return "Sweden";
+		case 3:
+			return "Iran";
 	}
 	return "";
 }
